@@ -99,5 +99,3 @@ mysql -uroot -proot -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 
 # Start Apache
 echo_progress 'Starting apache'
 /usr/local/etc/rc.d/apache24 start
-
-
